@@ -1,6 +1,6 @@
 # Define the variable board below.
 board = Array.new   
 
-for i in 0..9
-  board << " "
+for i in 0..8
+  board[i] << " "
 end
